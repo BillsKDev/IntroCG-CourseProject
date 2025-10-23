@@ -22,7 +22,7 @@ a door and pressure plate to work with the magnetism mechanic for **SCRAP** wher
 
 <h3>Color Grading</h3>
 
-Color Grading was done to have a warm, cool, and death LUT that is projected onto a second camera with a render texture. It uses the shader to make materials that applies the LUT's and render textures to create a grading effect on an image UI that is overlayed on the second camera. I made it so you can toggle between the different materials with 5/6/7/8 by just changing the the material that is on the image with different materials that use the different LUT's.
+Color Grading was done to have a warm, cool, and death LUT that is projected onto a second camera with a render texture. It uses the shader to make materials that applies the LUT's and render textures to create a grading effect on an image UI that is overlayed on the second camera. The shader takes the original colors as inputs and uses paramaters like the LUT's brightness/contrast/hue to modify the color and remap new ouput colors and applying the adjustments. I made it so you can toggle between the different materials with 5/6/7/8 by just changing the the material that is on the image with different materials that use the different LUT's.
 
 **EXAMPLE IMAGES**
 <img width="991" height="557" alt="image" src="https://github.com/user-attachments/assets/bdefc934-2f2f-4542-979f-e7d1dcd6cdd9" />
