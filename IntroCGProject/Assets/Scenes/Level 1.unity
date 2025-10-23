@@ -37098,18 +37098,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1360112811}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1360594032
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6959293340683454252}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 14b63f35486ffcf48a287e0c66fd74b7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &1361213528 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2299937230005374736, guid: daa92d70368fd4645aeb8250293703c8, type: 3}
@@ -58275,7 +58263,6 @@ GameObject:
   - component: {fileID: 1622536832284633972}
   - component: {fileID: 1233293617724813774}
   - component: {fileID: 3518425054039783536}
-  - component: {fileID: 1360594032}
   m_Layer: 15
   m_Name: door
   m_TagString: Untagged
