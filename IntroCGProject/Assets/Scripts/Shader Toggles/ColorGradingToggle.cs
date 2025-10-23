@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ColorGradingToggle : MonoBehaviour
 {
@@ -7,48 +8,41 @@ public class ColorGradingToggle : MonoBehaviour
     [SerializeField] Material deadLUT;
     [SerializeField] Material normalLUT;
     [SerializeField] Shader shader;
-
-    Material currentLUT;
-
-    void Start() => currentLUT = normalLUT;
+    [SerializeField] Image renderImage;
 
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Alpha5))
         {
             Debug.Log("Switched to Warm");
-            currentLUT = warmLUT;
-            
+            renderImage.color = new Color(1, 1, 1, 1);
+            renderImage.material = warmLUT;
         }
 
         if (Input.GetKeyDown(KeyCode.Alpha6))
         {
-            Debug.Log("Switched to Warm");
-            currentLUT = deadLUT;
+            Debug.Log("Switched to Dead");
+            renderImage.color = new Color(1, 1, 1, 1);
+            renderImage.material = deadLUT;
         }
 
         if (Input.GetKeyDown(KeyCode.Alpha7))
         {
-            Debug.Log("Switched to Dead");
-            currentLUT = coolLUT;
+            Debug.Log("Switched to Cool");
+            renderImage.color = new Color(1, 1, 1, 1);
+            renderImage.material = coolLUT;
         }
 
         if (Input.GetKeyDown(KeyCode.Alpha8))
         {
             Debug.Log("Switched to Normal");
-            currentLUT = normalLUT;
+            renderImage.color = new Color(1, 1, 1, 0);
+            renderImage.material = normalLUT;
         }
     }
 
     void OnRenderImage(RenderTexture source, RenderTexture destination)
     {
-        if (currentLUT != null)
-        {
-            Graphics.Blit(source, destination, currentLUT);
-        }
-        else
-        {
-            Graphics.Blit(source, destination);
-        }
+        Graphics.Blit(source, destination);
     }
 }

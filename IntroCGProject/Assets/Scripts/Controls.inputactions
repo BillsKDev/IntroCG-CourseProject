@@ -461,94 +461,6 @@
                 },
                 {
                     "name": "",
-                    "id": "dd3dd1c5-749a-46da-bdd8-6ca927c9c389",
-                    "path": "<Keyboard>/h",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": ";Mouse & Keyboard",
-                    "action": "DetachPart",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "194776cf-88cc-442a-96b7-3ce3b1a49d58",
-                    "path": "<Gamepad>/buttonNorth",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": ";Gamepad",
-                    "action": "ReattachPart",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "bd92314a-89c6-442d-a881-b4b7cfe42701",
-                    "path": "<Keyboard>/g",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": ";Mouse & Keyboard",
-                    "action": "ReattachPart",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "e51fa3ab-9a38-442d-9a74-de2398fcb9d4",
-                    "path": "<Gamepad>/rightTrigger",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": ";Gamepad",
-                    "action": "ShootR",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "c2c51032-5cd0-45f1-8751-f5fae1d26ab5",
-                    "path": "<Keyboard>/1",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": ";Mouse & Keyboard",
-                    "action": "ShootR",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "7ce41617-b93d-42aa-b36a-4e92b7c24c93",
-                    "path": "<Gamepad>/leftTrigger",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": ";Gamepad",
-                    "action": "ShootL",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "c5b8d6e0-6c51-4af6-9d83-72f8a9629944",
-                    "path": "<Keyboard>/2",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": ";Mouse & Keyboard",
-                    "action": "ShootL",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "415a062b-3097-4baf-adfb-88cde75fd3ff",
-                    "path": "<Gamepad>/dpad/up",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": ";Gamepad",
-                    "action": "DropEverything",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
                     "id": "e3804fb3-ab4d-4a40-914e-3c415432fa81",
                     "path": "<Gamepad>/dpad/left",
                     "interactions": "",
@@ -588,39 +500,6 @@
                     "processors": "",
                     "groups": "",
                     "action": "DropRightArm",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "3cfc40fe-df6a-4d97-909c-d18c040cfdf1",
-                    "path": "<Gamepad>/dpad/down",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": ";Gamepad",
-                    "action": "DropRightLeg",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "2f500aa0-f455-4e03-ba01-279c864441b4",
-                    "path": "<Gamepad>/dpad/down",
-                    "interactions": "MultiTap",
-                    "processors": "",
-                    "groups": ";Gamepad",
-                    "action": "DropLeftLeg",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "47e869cd-b6e9-4e54-aca8-6dd452bf012b",
-                    "path": "<Gamepad>/dpad/down",
-                    "interactions": "Hold",
-                    "processors": "",
-                    "groups": ";Gamepad",
-                    "action": "DropBothLegs",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -676,39 +555,6 @@
                     "processors": "",
                     "groups": "",
                     "action": "RecallRightArm",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "39ff91b3-c444-4479-bc27-e77f36efc96e",
-                    "path": "<Keyboard>/escape",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": ";Mouse & Keyboard",
-                    "action": "PauseMenu",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "a6cb07f0-6bef-4aa8-9d06-42848988a7b1",
-                    "path": "<Gamepad>/start",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": ";Gamepad",
-                    "action": "PauseMenu",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "27a60595-0f0e-4db8-8a7e-ad375a489a86",
-                    "path": "<Keyboard>/e",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Interact",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
