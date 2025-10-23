@@ -5,7 +5,7 @@
 <h3>Base Game</h3>
 This game is a third person puzzle-combat game that is built off from teams GDW game **SCRAP** from Cracked Eggs last year, however I did remove alot of the polish since it was not needed for the prototype. 
 In this prototype, the player has to use their magnetic arms to solve a puzzle and then come face to face with an enemy and must defeat it to win the game. The losing condition is if the player is defeated by the enemy.
-Since the professor allowed me to use my previous GDW game, I am only using scripts/models from our game without any polish to get an idea of what our game was like, but will create custom shaders and effects for this assignment.
+Since the professor allowed me to use my previous GDW game, I am only using scripts/models from our game without any polish to get an idea of what our game was like, but will create custom shaders and effects for this assignment.\
 
 
 **Note on External sources for base game**
