@@ -7,8 +7,7 @@ This game is a third person puzzle-combat game that is built off from teams GDW 
 In this prototype, the player has to use their magnetic arms to solve a puzzle and then come face to face with an enemy and must defeat it to win the game. The losing condition is if the player is defeated by the enemy.
 Since the professor allowed me to use my previous GDW game, I am only using scripts/models from our game without any polish to get an idea of what our game was like, but will create custom shaders and effects for this assignment.<br>
 
-
-<p>**NOTE ON EXTERNAL SOURCES**</p>
+<h4>NOTE ON EXTERNAL SOURCES</h4>
 
 
 Since this game was made by my team, the models/textures are made by my previous teammates, and since I do not have GDW this year the professor told me I could use my previous GDW game to build this project off of.
