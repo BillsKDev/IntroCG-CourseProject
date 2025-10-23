@@ -2,8 +2,23 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!78 &1
 TagManager:
-  serializedVersion: 2
-  tags: []
+  serializedVersion: 3
+  tags:
+  - Ground
+  - L_Arm
+  - R_Arm
+  - RedPlayer
+  - L_Leg
+  - Head2
+  - Head3
+  - Head
+  - Torso
+  - Head5
+  - Head4
+  - BluePlayer
+  - MagneticWall
+  - Platform
+  - R_Leg
   layers:
   - Default
   - TransparentFX
@@ -50,27 +65,3 @@ TagManager:
   - Light Layer 5
   - Light Layer 6
   - Light Layer 7
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
