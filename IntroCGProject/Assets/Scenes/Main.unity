@@ -13046,6 +13046,7 @@ GameObject:
   - component: {fileID: 473423831}
   - component: {fileID: 473423830}
   - component: {fileID: 473423829}
+  - component: {fileID: 473423833}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -13205,6 +13206,23 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+--- !u!114 &473423833
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 473423827}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b315450fe4e8144882324232a4c955c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ColorGradingToggle
+  coolLUT: {fileID: 2100000, guid: 67cbcaaa0e2f3be478f407ae121a9346, type: 2}
+  warmLUT: {fileID: 2100000, guid: 731aa257954e42e4394aa363dce1f087, type: 2}
+  deadLUT: {fileID: 2100000, guid: 2d7de6ae3e3244749be049620b6d225b, type: 2}
+  normalLUT: {fileID: 2100000, guid: dfc5c74a16ceda346912547cdb7a6d0c, type: 2}
+  shader: {fileID: 4800000, guid: f4dd3f19e7d68f944868cd59d4320dfd, type: 3}
 --- !u!43 &478689276
 Mesh:
   m_ObjectHideFlags: 0
@@ -32764,15 +32782,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1543538463701921862, guid: daa92d70368fd4645aeb8250293703c8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.02452751
+      value: 0.024528153
       objectReference: {fileID: 0}
     - target: {fileID: 1543538463701921862, guid: daa92d70368fd4645aeb8250293703c8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.39493787
+      value: 0.39494777
       objectReference: {fileID: 0}
     - target: {fileID: 1543538463701921862, guid: daa92d70368fd4645aeb8250293703c8, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 4.253636
+      value: 4.253635
       objectReference: {fileID: 0}
     - target: {fileID: 1796819089364368837, guid: daa92d70368fd4645aeb8250293703c8, type: 3}
       propertyPath: m_Layer
@@ -32820,7 +32838,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2299937230005374736, guid: daa92d70368fd4645aeb8250293703c8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.644096
+      value: 4.9999995
       objectReference: {fileID: 0}
     - target: {fileID: 2299937230005374736, guid: daa92d70368fd4645aeb8250293703c8, type: 3}
       propertyPath: m_LocalPosition.z
@@ -32872,19 +32890,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2369218236361474423, guid: daa92d70368fd4645aeb8250293703c8, type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.975041
+      value: -0.9750407
       objectReference: {fileID: 0}
     - target: {fileID: 2369218236361474423, guid: daa92d70368fd4645aeb8250293703c8, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.22200397
+      value: -0.22200513
       objectReference: {fileID: 0}
     - target: {fileID: 2369218236361474423, guid: daa92d70368fd4645aeb8250293703c8, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.0029819442
+      value: 0.0029820218
       objectReference: {fileID: 0}
     - target: {fileID: 2369218236361474423, guid: daa92d70368fd4645aeb8250293703c8, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.00071358023
+      value: -0.0007136024
       objectReference: {fileID: 0}
     - target: {fileID: 2530606659547507570, guid: daa92d70368fd4645aeb8250293703c8, type: 3}
       propertyPath: m_Layer
