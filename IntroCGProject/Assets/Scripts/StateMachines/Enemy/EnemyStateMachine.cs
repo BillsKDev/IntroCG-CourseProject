@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -11,6 +12,7 @@ public class EnemyStateMachine : StateMachine
     [field: SerializeField] public WeaponDamage WeaponL { get; private set; }
     [field: SerializeField] public Health Health { get; private set; }
     [field: SerializeField] public Target Target { get; private set; }
+    [field: SerializeField] public PlayerStateMachine PlayerC { get; private set; }
 
 
     [field: SerializeField] public float MovementSpeed { get; private set; }
@@ -18,18 +20,26 @@ public class EnemyStateMachine : StateMachine
     [field: SerializeField] public float AttackRange { get; private set; }
     [field: SerializeField] public int AttackDamage { get; private set; }
     [field: SerializeField] public int AttackKnockback { get; private set; }
+    [field: SerializeField] public List<Transform> PatrolPoints { get; private set; } = new List<Transform>();
+    [field: SerializeField] public float PatrolSpeed { get; private set; } = 2f;
+    [field: SerializeField] public float BlockChance { get; private set; } = 0.01f;
+    [field: SerializeField] public float BlockGrace { get; private set; } = 1.5f;
+    [field: SerializeField] public bool CanBlock;
+    [field: SerializeField] public float AttackCooldown = 3f;
+    [field: SerializeField] public float LastAttackTime { get; set; } = Mathf.NegativeInfinity;
+    [field: SerializeField] public bool BlockEnemy { get; set; }
+    
 
-    public Health Player { get; private set; }
+    public Health Player;
 
 
     void Start()
     {
-        Player = GameObject.FindGameObjectWithTag("Player").GetComponent<Health>();
         
         Agent.updatePosition = false;
         Agent.updateRotation = false;
         
-        SwitchState(new EnemyIdleState(this));
+            SwitchState(new EnemyIdleState(this));
     }
     
     void OnEnable()

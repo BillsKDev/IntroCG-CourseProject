@@ -5,7 +5,7 @@ public class Health : MonoBehaviour
     [SerializeField] int maxHealth = 100;
     [SerializeField] Healthbar healthBar;
     
-    int health;
+    public int health;
     bool isInvulnerable;
     
     public event Action OnTakeDamage;

@@ -1,6 +1,8 @@
+using System;
 using Cinemachine;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.SceneManagement;
 
 public class PlayerStateMachine : StateMachine
 {
@@ -34,7 +36,17 @@ public class PlayerStateMachine : StateMachine
 
         SwitchState(new PlayerFreeLookState(this));
     }
-    
+
+    void LateUpdate()
+    {
+        if (Health.health <= 0) Invoke("ReloadScene", 2f);
+    }
+
+    void ReloadScene()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
     void OnEnable()
     {
         Health.OnTakeDamage += HandleTakeDamage;
