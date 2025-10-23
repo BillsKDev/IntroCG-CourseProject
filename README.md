@@ -8,7 +8,6 @@ In this prototype, the player has to use their magnetic arms to solve a puzzle a
 Since the professor allowed me to use my previous GDW game, I am only using scripts/models from our game without any polish to get an idea of what our game was like, but will create custom shaders and effects for this assignment.\
 
 
-**Note on External sources for base game**
 
 **NOTE ON EXTERNAL SOURCES FOR BASE GAME**
 
