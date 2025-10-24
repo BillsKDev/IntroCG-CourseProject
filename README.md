@@ -19,6 +19,12 @@ a door and pressure plate to work with the magnetism mechanic for **SCRAP** wher
 <img width="992" height="562" alt="image" src="https://github.com/user-attachments/assets/1a2075f4-e5fc-4205-9883-2ae4aaa55677" />
 
 <h3>Illumination</h3>
+<h4>Implemented Diffuse, Diffuse/Ambient, Specular, Specular/Ambient, No lighting</h4>
+I used one shader to calculate the different lighting calculations and have a float for the lighting mode that the player can toggle betwween the 1/2/3/4/0 keys. I used the lecture code as a reference so its very similar to them, but I had to adjust things slightly so I could toggle between the different models. The shader just has a texture, and color/shininess for the specular stuff and calculates the nomral, view direction and light then uses them to do the different calculations for every lighting model. For example Ambient uses spherical harmonics, and specular takes the dot product of the reflected direction and view direction changed by a shininess. Finally I have a lighting manager script that just takes the user input and sets float for the material to the correct lighting model. All of this was applied to the walls in the second room to easily see the difference between models.
+
+<h4>EXAMPLE IMAAGES</h4>
+<img width="779" height="465" alt="image" src="https://github.com/user-attachments/assets/f765d769-ee34-477e-a865-ea5bef0add5f" />
+<img width="714" height="440" alt="image" src="https://github.com/user-attachments/assets/292dddfa-5809-4f43-8b0b-dbdfa632d20c" />
 
 
 <h3>Color Grading</h3>
