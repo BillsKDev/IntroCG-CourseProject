@@ -13,7 +13,7 @@ Since the professor allowed me to use my previous GDW game, I am only using scri
 Since this game was made by my team, the models/textures are made by my previous teammates, and since I do not have GDW this year the professor told me I could use my previous GDW game to build this project off of.
 The code however, was written by myself and one other team member so i acknowledge that there was another team member working on these systems with me. The **SCRAP** repository can be seen here with all the code changes I made: https://github.com/Cracked-Eggs/ScrapY4
 To explain the code from here, We worked on a state machine system over the course of the last year that is used for both the player & enemy and is integrated smoothly with the combat system with every action having a different state. There are also simple scripts for
-a door and pressure plate to work with the magnetism mechanic for **SCRAP** where players can use their robot parts to progress through the game. I also acknowledge over the course of last year we probably used AI to help with bug fixing. 
+a door and pressure plate to work with the magnetism mechanic for **SCRAP** where players can use their robot parts to progress through the game. I also acknowledge over the course of last year we probably used AI to help with bug fixing. I also used an online image for a water texture for my scrolling UV shader https://www.pinterest.com/pin/1407443628881858/
 
 **Screenshot of base game**
 <img width="992" height="562" alt="image" src="https://github.com/user-attachments/assets/1a2075f4-e5fc-4205-9883-2ae4aaa55677" />
@@ -34,10 +34,16 @@ Color Grading was done to have a warm, cool, and death LUT that is projected ont
 <h4>Rim Lighting</h4>
 Rim Lighting was used on the walls and floor for the first room to give it a unique look. It's modified from what I learned fron the lectures with a few changes such as adding texture support and removing the base color property, enhancing the rim control with an intensity property so that I can adjust the rim effect to be brighter, changing the rim lighting calculation so that rather than the rim lighting appearing on the edges of an obeject the rim appears from the center and on surfaces facing the camera, and finally adjusting how the properties are blended together as mine multiplies the texture and intensity with the color and lighting to scale the final effect.
 
+
 **EXAMPLE IMAGE**
 <img width="992" height="556" alt="image" src="https://github.com/user-attachments/assets/dcc973df-4872-44ee-bf42-0886a1616a0a" />
 
 
 <h4>Scrolling UVs</h4>
+I created a custom scrolling UV shader to simulate water in my environment flowing. It moves the given texture over time by changing the x and y UV coordinates. At first I was having trouble with how time works with shaders, but with a quick google search I found a Unity documentation answer that shaders have their own custom time variable just like Time.DeltaTime https://discussions.unity.com/t/how-does-time-work-in-shaders/888675. With this knowledge I was able to change the textures UV for the x and y with a custom scroll speed property and the shader time. For the water texture I used an online image as mentioned in the external sources https://www.pinterest.com/pin/1407443628881858/
+
+**EXAMPLE GIF**
+![water](https://github.com/user-attachments/assets/130828ad-e1ce-4e6b-88c6-d0ac4fde4cd4)
+
 
 
