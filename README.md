@@ -3,6 +3,7 @@
 https://docs.google.com/presentation/d/1xmUP6Fy1iveyDPFE9YhHVGZHih8lr-p5Y8zfMe-eHnI/edit?usp=sharing
 
 <h4>Video Report</h4>
+https://www.youtube.com/watch?v=Zyih_3_A2Og
 
 <h4>Controls</h4>
 Q & E to drop arms
