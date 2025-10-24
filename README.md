@@ -34,15 +34,14 @@ Color Grading was done to have a warm, cool, and death LUT that is projected ont
 <h4>Rim Lighting</h4>
 Rim Lighting was used on the walls and floor for the first room to give it a unique look. It's modified from what I learned fron the lectures with a few changes such as adding texture support and removing the base color property, enhancing the rim control with an intensity property so that I can adjust the rim effect to be brighter, changing the rim lighting calculation so that rather than the rim lighting appearing on the edges of an obeject the rim appears from the center and on surfaces facing the camera, and finally adjusting how the properties are blended together as mine multiplies the texture and intensity with the color and lighting to scale the final effect.
 
-
-**EXAMPLE IMAGE**
+<h4>EXAMPLE IMAGE</h4>
 <img width="992" height="556" alt="image" src="https://github.com/user-attachments/assets/dcc973df-4872-44ee-bf42-0886a1616a0a" />
 
 
 <h4>Scrolling UVs</h4>
 I created a custom scrolling UV shader to simulate water in my environment flowing. It moves the given texture over time by changing the x and y UV coordinates. At first I was having trouble with how time works with shaders, but with a quick google search I found a Unity documentation answer that shaders have their own custom time variable just like Time.DeltaTime https://discussions.unity.com/t/how-does-time-work-in-shaders/888675. With this knowledge I was able to change the textures UV for the x and y with a custom scroll speed property and the shader time. For the water texture I used an online image as mentioned in the external sources https://www.pinterest.com/pin/1407443628881858/
 
-**EXAMPLE GIF**
+<h4>EXAMPLE IMAGE</h4>
 ![water](https://github.com/user-attachments/assets/130828ad-e1ce-4e6b-88c6-d0ac4fde4cd4)
 
 
