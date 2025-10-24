@@ -31,4 +31,13 @@ Color Grading was done to have a warm, cool, and death LUT that is projected ont
 
 <h3>Shaders</h3>
 
+<h4>Rim Lighting</h4>
+Rim Lighting was used on the walls and floor for the first room to give it a unique look. It's modified from what I learned fron the lectures with a few changes such as adding texture support and removing the base color property, enhancing the rim control with an intensity property so that I can adjust the rim effect to be brighter, changing the rim lighting calculation so that rather than the rim lighting appearing on the edges of an obeject the rim appears from the center and on surfaces facing the camera, and finally adjusting how the properties are blended together as mine multiplies the texture and intensity with the color and lighting to scale the final effect.
+
+**EXAMPLE IMAGE**
+<img width="992" height="556" alt="image" src="https://github.com/user-attachments/assets/dcc973df-4872-44ee-bf42-0886a1616a0a" />
+
+
+<h4>Scrolling UVs</h4>
+
 
