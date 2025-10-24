@@ -13,12 +13,13 @@ Since the professor allowed me to use my previous GDW game, I am only using scri
 Since this game was made by my team, the models/textures are made by my previous teammates, and since I do not have GDW this year the professor told me I could use my previous GDW game to build this project off of.
 The code however, was written by myself and one other team member so i acknowledge that there was another team member working on these systems with me. The **SCRAP** repository can be seen here with all the code changes I made: https://github.com/Cracked-Eggs/ScrapY4
 To explain the code from here, We worked on a state machine system over the course of the last year that is used for both the player & enemy and is integrated smoothly with the combat system with every action having a different state. There are also simple scripts for
-a door and pressure plate to work with the magnetism mechanic for **SCRAP** where players can use their robot parts to progress through the game. I also acknowledge over the course of last year we probably used AI to help with bug fixing. I also used an online image for a water texture for my scrolling UV shader https://www.pinterest.com/pin/1407443628881858/
+a door and pressure plate to work with the magnetism mechanic for **SCRAP** where players can use their robot parts to progress through the game. I also used an online image for a water texture for my scrolling UV shader https://www.pinterest.com/pin/1407443628881858/ I used a night skybox from the asset store https://assetstore.unity.com/packages/2d/textures-materials/sky/allsky-free-10-sky-skybox-set-146014
 
 **Screenshot of base game**
 <img width="992" height="562" alt="image" src="https://github.com/user-attachments/assets/1a2075f4-e5fc-4205-9883-2ae4aaa55677" />
 
 <h3>Illumination</h3>
+
 
 <h3>Color Grading</h3>
 
