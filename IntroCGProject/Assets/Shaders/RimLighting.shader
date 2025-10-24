@@ -10,7 +10,7 @@ Shader "Custom/RimLighting"
 
     SubShader
     {
-        Tags { "RenderPipeline" = "UniversalRenderPipeline" "RenderType" = "Opaque" "Queue"="Geometry"}
+        Tags { "RenderPipeline" = "UniversalRenderPipeline" "RenderType" = "Opaque" }
 
         Pass
         {
