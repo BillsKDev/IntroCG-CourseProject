@@ -42,7 +42,7 @@ Rim Lighting was used on the walls and floor for the first room to give it a uni
 I created a custom scrolling UV shader to simulate water in my environment flowing. It moves the given texture over time by changing the x and y UV coordinates. At first I was having trouble with how time works with shaders, but with a quick google search I found a Unity documentation answer that shaders have their own custom time variable just like Time.DeltaTime https://discussions.unity.com/t/how-does-time-work-in-shaders/888675. With this knowledge I was able to change the textures UV for the x and y with a custom scroll speed property and the shader time. For the water texture I used an online image as mentioned in the external sources https://www.pinterest.com/pin/1407443628881858/
 
 <h4>EXAMPLE IMAGE</h4>
-![water](https://github.com/user-attachments/assets/fffe078e-4e26-42f1-8633-57aab28bc647)
+<img src="https://github.com/BillsKDev/IntroCG-CourseProject/blob/main/Gifs/water.gif" width="500">
 
 
 
