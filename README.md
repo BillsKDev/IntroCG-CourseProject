@@ -1,4 +1,16 @@
 <h2>Graphics Project Progression</h2>
+<h4>Slides</h4>
+https://docs.google.com/presentation/d/1xmUP6Fy1iveyDPFE9YhHVGZHih8lr-p5Y8zfMe-eHnI/edit?usp=sharing
+
+<h4>Video Report</h4>
+
+<h4>Controls</h4>
+Q & E to drop arms
+Z & C to retract arms
+Tab to lock onto enemy
+Click to attack
+Right click to block
+Can be played with controller
 
 <h2>Explanations</h2>
 
