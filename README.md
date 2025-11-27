@@ -5,7 +5,7 @@
 
 <h3>Improvements:</h3>
 <h4>Post Processing</h4>
-The first improvement I made to make the game look more gritty and realistic is add some post processing through the global volume. Here I adjusted values like tonemapping, bloom, color, depth of field, film grain etc. to make the game look a lot better compared to what it was in the project progression.
+The first improvement I made to make the game look more gritty and realistic is add some post processing through the global volume. Here I adjusted values like tonemapping, bloom, color, depth of field, film grain etc. to make the game look a lot better compared to what it was in the project progression. I also decided to make this toggleable to reach the project grading requirements so that this effect can be toggled on and off with the global volume with the G key
 <img src="https://github.com/BillsKDev/IntroCG-CourseProject/blob/main/Gifs/PP.gif" width="992" height="546">
 
 <h4>Lighting</h4>
