@@ -3,7 +3,7 @@
 <h3>Video Report:</h3>
 <h3>Slides:</h3>
 
-<h3>Improvements</h3>
+<h3>Improvements:</h3>
 <h4>Post Processing</h4>
 The first improvement I made to make the game look more gritty and realistic is add some post processing through the global volume. Here I adjusted values like tonemapping, bloom, color, depth of field, film grain etc. to make the game look a lot better compared to what it was in the project progression.
 <img width="1618" height="904" alt="image" src="https://github.com/user-attachments/assets/0dce140e-bc40-46e4-b929-6358b5958442" />
@@ -12,6 +12,7 @@ The first improvement I made to make the game look more gritty and realistic is 
 
 The lighting was adjusted and I actually took time to decide where each light will be placed to give things that should be more focused with the lights like the enemy more shine, and darker around. I also made it so you can **TOGGLE** the lights on and off with the T key
 <img src="https://github.com/BillsKDev/IntroCG-CourseProject/blob/main/Gifs/Lighting.gif" width="992" height="546">
+
 
 
 
