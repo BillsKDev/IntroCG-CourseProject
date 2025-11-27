@@ -107,7 +107,7 @@ Material:
     - _FoamMag: 0.058
     - _FoamOpac: 0.597
     - _Freq: 5
-    - _Frequency: 4.73
+    - _Frequency: 5
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
