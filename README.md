@@ -10,8 +10,12 @@ The first improvement I made to make the game look more gritty and realistic is 
 
 <h4>Lighting</h4>
 
-The lighting was adjusted and I actually took time to decide where each light will be placed to give things that should be more focused with the lights like the enemy more shine, and darker around. I also made it so you can **TOGGLE** the lights on and off with the T key
+The lighting was adjusted and I actually took time to decide where each light will be placed to give the game a more darker feel with more focused lights like giving the enemy more shine, and darker around. I also made it so you can **TOGGLE** the lights on and off with the T key
 <img src="https://github.com/BillsKDev/IntroCG-CourseProject/blob/main/Gifs/Lighting.gif" width="992" height="546">
+
+<h4>Removed Rim from Walls & used it for Damage</h4>
+In the project progression, I felt that I did a pretty bad job of finding a good way to actually use the rim lighting shader and it was placed on walls/floors. This time around I wanted an actual reason to use the rim lighting so I removed the rim lighting from the walls and floors and added textures for them, then I made it so whenever the player or enemy takes damage there is a rim lighting flicker to let the player know that they took damage.
+<img src="https://github.com/BillsKDev/IntroCG-CourseProject/blob/main/Gifs/RimChange.gif" width="992" height="546">
 
 
 
