@@ -11,7 +11,7 @@ The first improvement I made to make the game look more gritty and realistic is 
 <h4>Lighting</h4>
 
 The lighting was adjusted and I actually took time to decide where each light will be placed to give things that should be more focused with the lights like the enemy more shine, and darker around. I also made it so you can **TOGGLE** the lights on and off with the T key
-<img src="https://github.com/BillsKDev/IntroCG-CourseProject/blob/main/Gifs/Lighting.gif" width="992" height="546">
+
 
 
 
