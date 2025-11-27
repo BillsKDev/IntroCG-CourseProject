@@ -1,3 +1,6 @@
+<h2>Graphics Course Project</h2>
+<h4><a href="#graphics-project-progression">FOR ASSIGNMENT 1 DELIVERABLES VIEW</a></h4>
+
 <h2>Graphics Project Progression</h2>
 <h4>Slides</h4>
 https://docs.google.com/presentation/d/1xmUP6Fy1iveyDPFE9YhHVGZHih8lr-p5Y8zfMe-eHnI/edit?usp=sharing
