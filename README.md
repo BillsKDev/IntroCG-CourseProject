@@ -6,7 +6,7 @@
 <h3>Improvements:</h3>
 <h4>Post Processing</h4>
 The first improvement I made to make the game look more gritty and realistic is add some post processing through the global volume. Here I adjusted values like tonemapping, bloom, color, depth of field, film grain etc. to make the game look a lot better compared to what it was in the project progression.
-<img width="1618" height="904" alt="image" src="https://github.com/user-attachments/assets/0dce140e-bc40-46e4-b929-6358b5958442" />
+<img src="https://github.com/BillsKDev/IntroCG-CourseProject/blob/main/Gifs/Post-Processing.gif" width="992" height="546">
 
 <h4>Lighting</h4>
 
