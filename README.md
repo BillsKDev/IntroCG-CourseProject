@@ -1,5 +1,13 @@
 <h2>Graphics Course Project</h2>
-<h4><a href="#graphics-project-progression">FOR ASSIGNMENT 1 DELIVERABLES VIEW</a></h4>
+<h4><a href="#graphics-project-progression">FOR ASSIGNMENT 1 DELIVERABLES VIEW HERE</a></h4>
+<h3>Video Report:</h3>
+<h3>Slides:</h3>
+
+<h3>Improvements</h3>
+
+<h3>Texturing</h3>
+
+<h3>Visual Effects</h3>
 
 <h2>Graphics Project Progression</h2>
 <h4>Slides</h4>
