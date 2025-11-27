@@ -3,7 +3,7 @@ using UnityEngine;
 public class ToggleGameObjects : MonoBehaviour
 {
     [SerializeField] GameObject[] _lightingToggle;
-    [SerializeField] KeyCode _toggleKey = KeyCode.L;
+    [SerializeField] KeyCode _toggleKey = KeyCode.E;
     [SerializeField] bool _setActive = true;
 
     private void Start()
