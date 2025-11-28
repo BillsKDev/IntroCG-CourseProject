@@ -79,6 +79,7 @@ Glass was made because I wanted to have the player to see the water and waves ou
 
 
 <h2>Graphics Project Progression</h2>
+NOTE: Color grading might have camera issues with the final build because I had some issues with the background being yellow when using the LUT camera. That should be the only A1 Deliverable that is iffy in the final build
 <h4>Slides</h4>
 https://docs.google.com/presentation/d/1xmUP6Fy1iveyDPFE9YhHVGZHih8lr-p5Y8zfMe-eHnI/edit?usp=sharing
 
