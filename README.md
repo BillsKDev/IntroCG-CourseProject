@@ -32,6 +32,11 @@ As stated before, in the project progression I didn't really put things together
 
 <h3>Visual Effects</h3>
 
+<h4>Waves/Scrolling</h4>
+From the previous project progression, I only had a scrolling texture shader for the water and I wanted to improve on this to make realistic looking waves on top of the scrolling effect. This is done by having a point defined on itself and have the waves move in towards that point, so if the values were 0 they would move to the origin of the plane. It uses a sine wave to have some displacement and paramaters like amplitude, frequency and speed that control how the wave actually behaves. This is completely different than the one showed in class since that was completely flat and simulates the movement rather than here I have an actual waves moving across the facility. I decided to do this because I thought in my project progression the scrolling shader was kind of forced so I had the water fill the entire facility, and the player would be able to see they are stranded through some glass windows in the second floor which would give the player some depth of danger seeing they are stranded on this facility
+<img src="https://github.com/BillsKDev/IntroCG-CourseProject/blob/main/Gifs/WaterUpdated.gif" width="992" height="546">
+
+
 <h2>Graphics Project Progression</h2>
 <h4>Slides</h4>
 https://docs.google.com/presentation/d/1xmUP6Fy1iveyDPFE9YhHVGZHih8lr-p5Y8zfMe-eHnI/edit?usp=sharing
