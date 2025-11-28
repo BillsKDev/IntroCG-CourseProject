@@ -33,9 +33,12 @@ From the previous project progression, I only had a scrolling texture shader for
 <img src="https://github.com/BillsKDev/IntroCG-CourseProject/blob/main/Gifs/WaterUpdated.gif" width="992" height="546">
 
 <h4>Glass</h4>
-Glass was made because I wanted to have the player to see the water and waves outside and make them feel like they are stranded. It was done by using a grab texture that takes a screenshot of the object, and then using the normal map distort the background for a glass like effect. It combines the object normals with the normal map and based on the angle between the view direction and surface normal it would make the edges more reflective. This one is different from the one in class since I added a lot more color control to what the glass would look like with a color shift, brightness, and reflection tint which can be updated to make the glass look unique. Its also different because I tried implementing reflections for more realism instead of the normal fresnel effect
+Glass was made because I wanted to have the player to see the water and waves outside and make them feel like they are stranded. It was done by using a grab texture that takes a screenshot of the object, and then using the normal map distort the background for a glass like effect. It combines the object normals with the normal map and based on the angle between the view direction and surface normal it would make the edges more reflective. This one is different from the one in class since I added a lot more color control to what the glass would look like with a color shift, brightness, and reflection tint which can be updated to make the glass look unique. Its also different because I tried implementing reflections for more realism instead of the normal fresnel effect and I added a brightness adjuster to make the glass look a lot darker
 
-<img width="735" height="443" alt="image" src="https://github.com/user-attachments/assets/609a373f-195e-48d4-a108-f651cbe54976" />
+ <img width="676" height="515" alt="image" src="https://github.com/user-attachments/assets/926edfef-f0a3-45a5-8d3f-c232b353de4c" />
+
+
+
 
 
 
