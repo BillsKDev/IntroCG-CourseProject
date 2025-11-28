@@ -35,6 +35,9 @@ I have also made it so you can toggle the textures on and off with a basic mater
 To give a good example of how this project uses texture sampling, I also adjusted the rim lighting hit to work with whatever texture the player has on them, as before it would just use a solid color material no texture. Now it samples the texture on the object THEN does the rim affect and additively blends the shader with the player/enemy object
 <img src="https://github.com/BillsKDev/IntroCG-CourseProject/blob/main/Gifs/sampling.gif" width="992" height="546">
 
+<h4>How was texturing done?</h4>
+Since I am solo it would have been a lot of work to develop my own textures. Therefore, i decided that I would just take the initial textures in my previous GDW project and just change the textures to what I want the gamem to feel like. This was done by going into photoshop and adjusting things like saturation hue contrast etc.
+
 <h4>Creation of textures & Normal Mapping</h4>
 <p>These specific textures were used because this game has a more realistic look and needs to look like some sort of facility. Since this is my previous year's GDW game I initially used the first wall/floor texture that was made by them (https://github.com/Cracked-Eggs/ScrapY4) but for the second room I decided to use the textures to make my own. All of the textures used are using normal mapping except for the water and the textures. Here are the normal textures</p>
 <img width="200" height="200" alt="Concrete_Polished_01_C" src="https://github.com/user-attachments/assets/47ae9b59-d59e-44ca-acb1-d9874fab5e43" />
@@ -55,11 +58,8 @@ And then here are the floor/wall that i updated myself for the second room
 
 <img width="200" height="200" alt="SlideDoor_UV_Image_Normal" src="https://github.com/user-attachments/assets/a06bc8d1-7822-4cb1-aded-5d278a282cca" />
 
-
-
-
-
-
+<h4>Why this color pallete and textures</h4>
+The reason I went for this color pallete was because i really wanted to go for a more gritty and dark vibe and then surprise the player with the second room being  very colorful. One of my favorite games is Poppy Playtime and I love how they create a sense of fear by taking child like things and subverting expectations. Likewise I wanted the second room to feel the same vibe but more playful.
 
 <h3>Visual Effects</h3>
 
