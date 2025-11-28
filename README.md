@@ -18,8 +18,9 @@ In the project progression, I felt that I did a pretty bad job of finding a good
 <img src="https://github.com/BillsKDev/IntroCG-CourseProject/blob/main/Gifs/RimChange.gif" width="992" height="546">
 
 <h4>Map adjustments</h4>
-As stated before, in the project progression I didn't really put things together properly, as I just made effects for the sake of making them. Now I am using the illumination models from the project progression on the pipes rather than the walls like before. I decided that I wanted the second room to look completely different so I decided to give it a glass look instead. You can view glass changes in visual effects, but below is the screenshot for an example illumination (ambient) on the pipes.
-<img width="950" height="531" alt="image" src="https://github.com/user-attachments/assets/93fcbc67-cb0e-4182-ae9f-103f60e047c2" />
+As stated before, in the project progression I didn't really put things together properly, as I just made effects for the sake of making them. Now I am using the illumination models from the project progression on the pipes rather than the walls like before. I decided that I wanted the second room to look completely different so I decided to give it a glass look instead. You can view glass changes in visual effects, but below is the screenshot for an example illumination (a+s+d) on the pipes.
+<img width="805" height="531" alt="image" src="https://github.com/user-attachments/assets/1b59bf9c-cb11-4233-81a9-041119572d51" />
+
 
 
 
