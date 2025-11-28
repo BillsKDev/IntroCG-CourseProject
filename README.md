@@ -1,5 +1,6 @@
 <h2>Graphics Course Project</h2>
 <h4><a href="#graphics-project-progression">FOR ASSIGNMENT 1 DELIVERABLES VIEW HERE</a></h4>
+To reach grading requirements, I have A1 deliverable info above and still in the project, a release build and a readme documenting everything with explanations and screenshots, a youtube video for the report, and my project utilizes lighting that can be toggled on/off with some other effects like post processing/color grading/illumination that can also be toggled.
 <h3>Video Report:</h3>
 <h3>Slides:</h3>
 
@@ -16,6 +17,13 @@ The lighting was adjusted and I actually took time to decide where each light wi
 <h4>Removed Rim from Walls & used it for Damage</h4>
 In the project progression, I felt that I did a pretty bad job of finding a good way to actually use the rim lighting shader and it was placed on walls/floors. This time around I wanted an actual reason to use the rim lighting so I removed the rim lighting from the walls and floors and added textures for them, then I made it so whenever the player or enemy takes damage there is a rim lighting flicker to let the player know that they took damage. This was done by changing the health script to loop through all the players render objects then swap them to the rim material for a short period then swap back to the original material after.
 <img src="https://github.com/BillsKDev/IntroCG-CourseProject/blob/main/Gifs/RimChange.gif" width="992" height="546">
+
+<h4>Map adjustments</h4>
+As stated before, in the project progression I didn't really put things together properly, as I just made effects for the sake of making them. Now I am using the illumination models from the project progression on the pipes rather than the walls like before. I decided that I wanted the second room to look completely different so I decided to give it a glass look instead. You can view glass changes in visual effects, but below is the screenshot for an example illumination (a+s+d) on the pipes.
+<img width="805" height="531" alt="image" src="https://github.com/user-attachments/assets/1b59bf9c-cb11-4233-81a9-041119572d51" />
+
+
+
 
 
 
