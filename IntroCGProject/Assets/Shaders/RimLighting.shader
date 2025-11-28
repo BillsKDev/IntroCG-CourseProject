@@ -5,7 +5,7 @@ Shader "Custom/RimLighting"
         _RimColor ("Rim Color", Color) = (0, 0.5, 1, 1)
         _RimPower ("Rim Power", Range(0.5, 25.0)) = 3.0
         _RimIntensity ("Rim Intensity", Range(0, 15)) = 1.0
-        _Texture ("Texture", 2D) = "white" {}
+        _MainTex ("Texture", 2D) = "white" {}
     }
 
     SubShader
@@ -40,10 +40,11 @@ Shader "Custom/RimLighting"
                 float4 _RimColor;
                 float _RimPower;
                 float _RimIntensity;
+                float4 _MainTex_ST;
             CBUFFER_END
 
-            TEXTURE2D(_Texture);
-            SAMPLER(sampler_Texture);
+            TEXTURE2D(_MainTex);
+            SAMPLER(sampler_MainTex);
 
             Varyings vert(Attributes IN)
             {
@@ -52,20 +53,21 @@ Shader "Custom/RimLighting"
                 OUT.normalWS = normalize(TransformObjectToWorldNormal(IN.normalOS));
                 float3 worldPosWS = TransformObjectToWorld(IN.positionOS.xyz);
                 OUT.viewDirWS = normalize(GetCameraPositionWS() - worldPosWS);
-                OUT.uv = IN.texcoord;
+                OUT.uv = TRANSFORM_TEX(IN.texcoord, _MainTex);
                 return OUT;
             }
 
             half4 frag(Varyings IN) : SV_Target
             {
+                half4 textureColor = SAMPLE_TEXTURE2D(_MainTex, sampler_MainTex, IN.uv);
                 half3 normalWS = normalize(IN.normalWS);
                 half3 viewDirWS = normalize(IN.viewDirWS);
-                half rimFactor = saturate(dot(viewDirWS, normalWS));
-                half rimLighting = pow(rimFactor, _RimPower);
-
-                half3 finalTexture = SAMPLE_TEXTURE2D(_Texture, sampler_Texture, IN.uv).rgb;
-                half3 finalRim = finalTexture * _RimColor.rgb * _RimIntensity * rimLighting;
-                return half4(finalRim, 1.0); 
+                half rimFactor = 1.0 - saturate(dot(viewDirWS, normalWS)); 
+                half rimLighting = pow(rimFactor, _RimPower) * _RimIntensity;
+                
+                half3 finalColor = textureColor.rgb + (_RimColor.rgb * rimLighting);
+                
+                return half4(finalColor, textureColor.a);
             }
             ENDHLSL
         }

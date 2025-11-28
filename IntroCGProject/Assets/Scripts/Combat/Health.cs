@@ -34,6 +34,8 @@ public class Health : MonoBehaviour
             _originalMaterials = new Material[_activeRenderers.Length];
             for (int i = 0; i < _activeRenderers.Length; i++)
                 if (_activeRenderers[i] != null) _originalMaterials[i] = _activeRenderers[i].material;
+            
+            SetupRimMaterialWithTextures();
         }
     }
 
@@ -62,12 +64,33 @@ public class Health : MonoBehaviour
         Debug.Log(health);
     }
     
+    private void SetupRimMaterialWithTextures()
+    {
+        if (_rimMaterial != null && _activeRenderers != null && _activeRenderers.Length > 0)
+        {
+            foreach (var renderer in _activeRenderers)
+            {
+                if (renderer != null && renderer.material != null && renderer.material.mainTexture != null)
+                {
+                    _rimMaterial.SetTexture("_MainTex", renderer.material.mainTexture);
+                    break;
+                }
+            }
+        }
+    }
+    
     private IEnumerator RimEffectCoroutine()
     {
         for (int i = 0; i < _activeRenderers.Length; i++)
         {
             if (_activeRenderers[i] != null)
+            {
+                if (_originalMaterials[i] != null && _originalMaterials[i].mainTexture != null)
+                {
+                    _rimMaterial.SetTexture("_MainTex", _originalMaterials[i].mainTexture);
+                }
                 _activeRenderers[i].material = _rimMaterial;
+            }
         }
         
         yield return new WaitForSeconds(_rimDuration);

@@ -7,7 +7,6 @@ Shader "Custom/URPGlassWithProperExtrusion"
         _ScaleUV ("Scale", Range(1,20)) = 1
         _BumpExtrusion ("Bump Extrusion", Range(0, 0.1)) = 0.01  
         _FresnelIntensity ("Fresnel Intensity", Range(0, 2)) = 1
-        _EmissionColor ("Emission Color", Color) = (0,0,0,0)
         _TintIntensity ("Tint Intensity", Range(1, 5)) = 1.5
         _Transparency ("Transparency", Range(0, 1)) = 0.5
         _ColorShift ("Color Shift", Color) = (1, 1, 1, 1)
@@ -54,7 +53,6 @@ Shader "Custom/URPGlassWithProperExtrusion"
             float _BumpExtrusion;  
             float _FresnelIntensity;
             float _TintIntensity;
-            float4 _EmissionColor;
             float _Transparency;
             
             float4 _ColorShift;
@@ -103,7 +101,6 @@ Shader "Custom/URPGlassWithProperExtrusion"
                 col *= tint * _TintIntensity;
                 col.rgb *= _ColorShift.rgb;
                 col.rgb *= _Brightness;
-                col += _EmissionColor;
                 col.rgb = pow(col.rgb, 1.0 / 2.2);
                 col.a = 1.0 - _Transparency;
                 return col;
