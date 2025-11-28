@@ -36,16 +36,19 @@ To give a good example of how this project uses texture sampling, I also adjuste
 <img src="https://github.com/BillsKDev/IntroCG-CourseProject/blob/main/Gifs/sampling.gif" width="992" height="546">
 
 <h4>Creation of textures & Normal Mapping</h4>
-These specific textures were used because this game has a more realistic look and needs to look like some sort of facility. Since this is my previous year's GDW game I initially used the first wall/floor texture that was made by them (repo in project progression) but for the second room I decided to use the textures to make my own. All of the textures used are using normal mapping except for the water and the textures. Here are the normal textures
+These specific textures were used because this game has a more realistic look and needs to look like some sort of facility. Since this is my previous year's GDW game I initially used the first wall/floor texture that was made by them (https://github.com/Cracked-Eggs/ScrapY4) but for the second room I decided to use the textures to make my own. All of the textures used are using normal mapping except for the water and the textures. Here are the normal textures
 <img width="200" height="200" alt="Concrete_Polished_01_C" src="https://github.com/user-attachments/assets/47ae9b59-d59e-44ca-acb1-d9874fab5e43" />
 <img width="200" height="200" alt="Concrete_Polished_01_N" src="https://github.com/user-attachments/assets/16322c48-bc65-4879-877c-ef6baf3637bb" />
+<img width="200" height="200" alt="Wall_02_C" src="https://github.com/user-attachments/assets/4caff7b5-fee0-4a67-883f-9909a3ed5d03" />
+<img width="200" height="200" alt="Wall_02_N" src="https://github.com/user-attachments/assets/dbb5d3db-6d2e-4caa-94af-f6ad36bf3f0e" />
+
+
 
 
 And then here are the floor/wall that i updated myself for the second room
 
 <img width="200" height="200" alt="Concrete_Polished_01_C" src="https://github.com/user-attachments/assets/00b6d055-66e3-4dbf-b1a2-96dcd3097558" />
-
-<img width="2048" height="2048" alt="Wall_02_C" src="https://github.com/user-attachments/assets/b45534f5-13a5-467e-ae49-00405c154b22" />
+<img width="200" height="200" alt="Wall_02_C" src="https://github.com/user-attachments/assets/b45534f5-13a5-467e-ae49-00405c154b22" />
 
 
 
