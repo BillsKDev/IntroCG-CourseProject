@@ -2,7 +2,7 @@
 <h4><a href="#graphics-project-progression">FOR ASSIGNMENT 1 DELIVERABLES VIEW HERE</a></h4>
 To reach grading requirements, I have A1 deliverable info above and still in the project, a release build and a readme documenting everything with explanations and screenshots, a youtube video for the report, and my project utilizes lighting that can be toggled on/off with some other effects like post processing/texturing//color grading/illumination that can also be toggled.
 <h3>Video Report:</h3>
-<h3>Slides:</h3>
+<h3>Slides: https://docs.google.com/presentation/d/1xmUP6Fy1iveyDPFE9YhHVGZHih8lr-p5Y8zfMe-eHnI/edit?usp=sharing</h3>
 
 <h3>Improvements:</h3>
 <h4>Post Processing</h4>
