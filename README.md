@@ -1,6 +1,6 @@
 <h2>Graphics Course Project</h2>
 <h4><a href="#graphics-project-progression">FOR ASSIGNMENT 1 DELIVERABLES VIEW HERE</a></h4>
-To reach grading requirements, I have A1 deliverable info above and still in the project, a release build and a readme documenting everything with explanations and screenshots, a youtube video for the report, and my project utilizes lighting that can be toggled on/off with some other effects like post processing/color grading/illumination that can also be toggled.
+To reach grading requirements, I have A1 deliverable info above and still in the project, a release build and a readme documenting everything with explanations and screenshots, a youtube video for the report, and my project utilizes lighting that can be toggled on/off with some other effects like post processing/texturing//color grading/illumination that can also be toggled.
 <h3>Video Report:</h3>
 <h3>Slides:</h3>
 
