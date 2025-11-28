@@ -19,7 +19,8 @@ In the project progression, I felt that I did a pretty bad job of finding a good
 
 <h4>Map adjustments</h4>
 As stated before, in the project progression I didn't really put things together properly, as I just made effects for the sake of making them. Now I am using the illumination models from the project progression on the pipes rather than the walls like before. I decided that I wanted the second room to look completely different so I decided to give it a glass look instead. You can view glass changes in visual effects, but below is the screenshot for an example illumination (ambient) on the pipes.
-<img width="981" height="554" alt="image" src="https://github.com/user-attachments/assets/1cf0e50f-490a-4df7-8375-e66e7f129fda" />
+<img width="950" height="531" alt="image" src="https://github.com/user-attachments/assets/93fcbc67-cb0e-4182-ae9f-103f60e047c2" />
+
 
 
 
