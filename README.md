@@ -29,10 +29,12 @@ As stated before, in the project progression I didn't really put things together
 
 <h4>Waves/Scrolling</h4>
 From the previous project progression, I only had a scrolling texture shader for the water and I wanted to improve on this to make realistic looking waves on top of the scrolling effect. This is done by having a point defined on itself and have the waves move in towards that point, so if the values were 0 they would move to the origin of the plane. It uses a sine wave to have some displacement and paramaters like amplitude, frequency and speed that control how the wave actually behaves. This is completely different than the one showed in class since that was completely flat and simulates the movement rather than here I have an actual waves moving across the facility. I decided to do this because I thought in my project progression the scrolling shader was kind of forced so I had the water fill the entire facility, and the player would be able to see they are stranded through some glass windows in the second floor which would give the player some depth of danger seeing they are stranded on this facility
+
 <img src="https://github.com/BillsKDev/IntroCG-CourseProject/blob/main/Gifs/WaterUpdated.gif" width="992" height="546">
 
 <h4>Glass</h4>
-Glass
+Glass was made because I wanted to have the player to see the water and waves outside and make them feel like they are stranded. It was done by using a grab texture that takes a screenshot of the object, and then using the normal map distort the background for a glass like effect. It combines the object normals with the normal map and based on the angle between the view direction and surface normal it would make the edges more reflective. This one is different from the one in class since I added a lot more color control to what the glass would look like with a color shift, brightness, and reflection tint which can be updated to make the glass look unique. Its also different because I tried implementing reflections for more realism instead of the normal fresnel effect
+
 <img width="735" height="443" alt="image" src="https://github.com/user-attachments/assets/609a373f-195e-48d4-a108-f651cbe54976" />
 
 
