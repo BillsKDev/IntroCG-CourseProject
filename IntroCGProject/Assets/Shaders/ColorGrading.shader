@@ -1,4 +1,4 @@
-Shader "Shaders/ColorGrading"
+Shader "Custom/ColorGrading"
 {
     Properties
     {
@@ -9,10 +9,6 @@ Shader "Shaders/ColorGrading"
 
     SubShader
     {
-        Tags
-        {
-            "RenderPipeline" = "UniversalPipeline" "RenderType" = "Opaque"
-        }
         Cull Off ZWrite Off ZTest Always
         Pass
         {
@@ -54,9 +50,9 @@ Shader "Shaders/ColorGrading"
             half4 frag(Varyings IN) : SV_Target
             {
                 half4 col = SAMPLE_TEXTURE2D(_MainTex, sampler_MainTex, IN.uv);
-
+                
                 float maxColor = COLORS - 1.0;
-
+                
                 float halfColX = 0.5 / _LUT_TexelSize.z;
                 float halfColY = 0.5 / _LUT_TexelSize.w;
                 float threshold = maxColor / COLORS;

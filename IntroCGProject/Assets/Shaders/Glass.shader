@@ -1,4 +1,4 @@
-Shader "Shaders/Glass"
+Shader "Custom/URPGlassWithProperExtrusion"
 {
     Properties
     {

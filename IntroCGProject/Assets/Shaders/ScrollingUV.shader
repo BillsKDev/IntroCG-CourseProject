@@ -1,4 +1,4 @@
-Shader "Shaders/ScrollingUV"
+Shader "Custom/ScrollingUV"
 {
     Properties
     {
