@@ -35,6 +35,22 @@ I have also made it so you can toggle the textures on and off with a basic mater
 To give a good example of how this project uses texture sampling, I also adjusted the rim lighting hit to work with whatever texture the player has on them, as before it would just use a solid color material no texture. Now it samples the texture on the object THEN does the rim affect and additively blends the shader with the player/enemy object
 <img src="https://github.com/BillsKDev/IntroCG-CourseProject/blob/main/Gifs/sampling.gif" width="992" height="546">
 
+<h4>Creation of textures & Normal Mapping</h4>
+These specific textures were used because this game has a more realistic look and needs to look like some sort of facility. Since this is my previous year's GDW game I initially used the first wall/floor texture that was made by them (repo in project progression) but for the second room I decided to use the textures to make my own. All of the textures used are using normal mapping except for the water and the textures. Here are the normal textures
+<img width="200" height="200" alt="Concrete_Polished_01_C" src="https://github.com/user-attachments/assets/47ae9b59-d59e-44ca-acb1-d9874fab5e43" />
+<img width="200" height="200" alt="Concrete_Polished_01_N" src="https://github.com/user-attachments/assets/16322c48-bc65-4879-877c-ef6baf3637bb" />
+
+
+And then here are the floor/wall that i updated myself for the second room
+
+<img width="200" height="200" alt="Concrete_Polished_01_C" src="https://github.com/user-attachments/assets/00b6d055-66e3-4dbf-b1a2-96dcd3097558" />
+
+<img width="2048" height="2048" alt="Wall_02_C" src="https://github.com/user-attachments/assets/b45534f5-13a5-467e-ae49-00405c154b22" />
+
+
+
+
+
 
 <h3>Visual Effects</h3>
 
