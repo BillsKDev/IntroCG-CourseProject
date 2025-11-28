@@ -33,7 +33,7 @@ I have also made it so you can toggle the textures on and off with a basic mater
 
 <h4>Proof of texture sampling/UV mapping</h4> 
 To give a good example of how this project uses texture sampling, I also adjusted the rim lighting hit to work with whatever texture the player has on them, as before it would just use a solid color material no texture. Now it samples the texture on the object THEN does the rim affect and additively blends the shader with the player/enemy object
-<img src="https://github.com/BillsKDev/IntroCG-CourseProject/blob/main/Gifs/sample.gif" width="992" height="546">
+<img src="https://github.com/BillsKDev/IntroCG-CourseProject/blob/main/Gifs/sampling.gif" width="992" height="546">
 
 
 <h3>Visual Effects</h3>
