@@ -1,4 +1,4 @@
-Shader "Custom/UpdatedWater"
+Shader "Shaders/UpdatedWater"
 {
     Properties
     {

@@ -1,4 +1,4 @@
-Shader "Custom/RimLighting"
+Shader "Shaders/RimLighting"
 {
     Properties
     {
@@ -10,7 +10,7 @@ Shader "Custom/RimLighting"
 
     SubShader
     {
-        Tags { "RenderPipeline" = "UniversalRenderPipeline" "RenderType" = "Opaque" }
+        Tags { "RenderPipeline" = "UniversalPipeline" "RenderType" = "Opaque" }
 
         Pass
         {

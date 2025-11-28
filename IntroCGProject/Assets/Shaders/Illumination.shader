@@ -1,4 +1,4 @@
-Shader "Custom/Illumination"
+Shader "Shaders/Illumination"
 {
     Properties
     {
