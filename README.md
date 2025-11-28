@@ -94,6 +94,9 @@ Right click to block
 Can be played with controller
 Toggle the lighting models with 0/1/2/3/4
 Toggle the LUTs with 5/6/7/8 (8 is normal)
+Toggle the textures with the T key
+Toggle the Volume with G key
+Toggle the Lighting with . key
 
 <h2>Explanations</h2>
 
