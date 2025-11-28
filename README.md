@@ -50,8 +50,7 @@ And then here are the floor/wall that i updated myself for the second room
 <img width="200" height="200" alt="Concrete_Polished_01_C" src="https://github.com/user-attachments/assets/00b6d055-66e3-4dbf-b1a2-96dcd3097558" />
 <img width="200" height="200" alt="Wall_02_C" src="https://github.com/user-attachments/assets/b45534f5-13a5-467e-ae49-00405c154b22" />
 
-
-I made small edits to alot of the other textures for the objects in the scene to fit the mood I was going for like for example the door was updated to
+<p>I made small edits to alot of the other textures for the objects in the scene to fit the mood I was going for like for example the door was updated to</p>
 <img width="200" height="200" alt="SlideDoor_UV_Image_AlbedoTransparency" src="https://github.com/user-attachments/assets/2cfb58d1-b780-4b26-8491-3b3102292417" />
 
 <img width="200" height="200" alt="SlideDoor_UV_Image_Normal" src="https://github.com/user-attachments/assets/a06bc8d1-7822-4cb1-aded-5d278a282cca" />
