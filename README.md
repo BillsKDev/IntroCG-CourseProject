@@ -17,6 +17,11 @@ The lighting was adjusted and I actually took time to decide where each light wi
 In the project progression, I felt that I did a pretty bad job of finding a good way to actually use the rim lighting shader and it was placed on walls/floors. This time around I wanted an actual reason to use the rim lighting so I removed the rim lighting from the walls and floors and added textures for them, then I made it so whenever the player or enemy takes damage there is a rim lighting flicker to let the player know that they took damage. This was done by changing the health script to loop through all the players render objects then swap them to the rim material for a short period then swap back to the original material after.
 <img src="https://github.com/BillsKDev/IntroCG-CourseProject/blob/main/Gifs/RimChange.gif" width="992" height="546">
 
+<h4>Map adjustments</h4>
+As stated before, in the project progression I didn't really put things together properly, as I just made effects for the sake of making them. Now I am using the illumination models from the project progression on the pipes rather than the walls like before. I decided that I wanted the second room to look completely different so I decided to give it a glass look instead. You can view glass changes in visual effects, but below is the screenshot for an example illumination (ambient) on the pipes.
+<img width="981" height="554" alt="image" src="https://github.com/user-attachments/assets/1cf0e50f-490a-4df7-8375-e66e7f129fda" />
+
+
 
 
 
